@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Valorant | Esports Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header -->
+  <header class="bg-gray-800 py-6 px-8 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-red-400">Valorant Zone</h1>
+    <a href="index.html" class="text-sm text-gray-300 hover:text-red-400 transition">← Back to Hub</a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="h-screen bg-cover bg-center flex items-center justify-center relative" style="background-image: url('https://wallpapercave.com/wp/wp6012294.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-70"></div>
+    <div class="z-10 text-center px-4">
+      <h2 class="text-5xl font-extrabold text-red-400">Valorant</h2>
+      <p class="text-lg mt-4 text-gray-300 max-w-xl mx-auto">Experience intense tactical gameplay and join tournaments to compete with the best in Valorant.</p>
+      <a href="#register" class="mt-6 inline-block px-6 py-3 bg-red-400 text-black font-bold rounded-full hover:bg-red-500 transition">Register Now</a>
+    </div>
+  </section>
+
+  <!-- Details Section -->
+  <section class="py-16 px-6 md:px-20 bg-gray-800">
+    <h3 class="text-3xl font-bold text-center text-red-400 mb-8">About Valorant</h3>
+    <p class="text-gray-300 max-w-3xl mx-auto text-center">Valorant is a 5v5 character-based tactical shooter from Riot Games. Blend your style and experience on a global competitive stage. Show off your skills and join our online tournaments with cash prizes and national ranking.</p>
+  </section>
+
+  <!-- Registration Form -->
+  <section id="register" class="py-16 px-6 md:px-20 bg-gray-900">
+    <h3 class="text-3xl font-bold text-center text-red-400 mb-10">Register for Upcoming Valorant Events</h3>
+    <form class="max-w-xl mx-auto space-y-6">
+      <div>
+        <label for="name" class="block text-gray-300">Full Name</label>
+        <input type="text" id="name" class="w-full p-3 rounded bg-gray-800 text-white border border-gray-700" placeholder="Enter your name" required />
+      </div>
+      <div>
+        <label for="email" class="block text-gray-300">Email</label>
+        <input type="email" id="email" class="w-full p-3 rounded bg-gray-800 text-white border border-gray-700" placeholder="Enter your email" required />
+      </div>
+      <div>
+        <label for="team" class="block text-gray-300">Team Name</label>
+        <input type="text" id="team" class="w-full p-3 rounded bg-gray-800 text-white border border-gray-700" placeholder="Optional (if joining as a team)" />
+      </div>
+      <button type="submit" class="w-full bg-red-400 text-black font-bold py-3 rounded hover:bg-red-500 transition">Submit Registration</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-800 text-gray-500 text-sm">
+    © 2025 Valorant Esports. All rights reserved.
+  </footer>
+
+</body>
+</html>
